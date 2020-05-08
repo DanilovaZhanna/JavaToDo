@@ -1,0 +1,6 @@
+
+CREATE TABLE IF NOT EXISTS Task (
+  id      INT PRIMARY KEY,
+  name    VARCHAR(64) NOT NULL,
+  status  VARCHAR(64) NOT NULL
+);
