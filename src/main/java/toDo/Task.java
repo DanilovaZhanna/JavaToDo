@@ -4,6 +4,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.Id;
 
+// Создаем сущность
 @Entity
 public class Task {
     @Id @GeneratedValue
